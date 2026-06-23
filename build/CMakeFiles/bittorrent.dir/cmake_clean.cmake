@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/bittorrent.dir/link.d"
+  "CMakeFiles/bittorrent.dir/src/bencode.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/bencode.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/bvalue.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/bvalue.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/main.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/main.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/printer.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/printer.cpp.o.d"
+  "bittorrent"
+  "bittorrent.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/bittorrent.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/bittorrent.dir/link.d CMakeFiles/bittorrent.dir/src/main.cpp.o CMakeFiles/bittorrent.dir/src/bencode.cpp.o CMakeFiles/bittorrent.dir/src/bvalue.cpp.o CMakeFiles/bittorrent.dir/src/printer.cpp.o -o bittorrent
