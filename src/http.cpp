@@ -3,7 +3,7 @@
 
 #include <sstream>
 
-std::string HttpClient::get(const std::string& host, const std::string& path){
+std::string HttpClient::getRaw(const std::string& host, const std::string& path){
     Socket socket;
     socket.connect(host, 80);
 
@@ -16,4 +16,15 @@ std::string HttpClient::get(const std::string& host, const std::string& path){
 
     socket.send(request.str());
     return socket.receive();
+}
+
+std::string HttpClient::getBody(const std::string& host, const std::string& path){
+    std::string response = getRaw(host, path);
+    ssize_t pos = response.find("\r\n\r\n");
+    if(pos == std::string::npos){
+        throw std::runtime_error(
+            "Invalid HTTP response."
+        );
+    }
+    return response.substr(pos + 4);
 }

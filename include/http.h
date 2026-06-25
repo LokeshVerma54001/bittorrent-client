@@ -4,5 +4,6 @@
 
 class HttpClient{
     public:
-        std::string get(const std::string& host, const std::string& path);
+        std::string getRaw(const std::string& host, const std::string& path);
+        std::string getBody(const std::string& host, const std::string& path);
 };

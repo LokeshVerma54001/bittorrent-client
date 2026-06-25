@@ -16,6 +16,7 @@ add_executable(bittorrent
     src/sha1.cpp
     src/socket.cpp
     src/http.cpp
+    src/url.cpp
 )
 
 target_include_directories(bittorrent
