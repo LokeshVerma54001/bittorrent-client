@@ -393,6 +393,30 @@ src/tracker_client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_client.cpp.s
 .PHONY : src/tracker_client.cpp.s
 
+src/tracker_response.o: src/tracker_response.cpp.o
+.PHONY : src/tracker_response.o
+
+# target to build an object file
+src/tracker_response.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o
+.PHONY : src/tracker_response.cpp.o
+
+src/tracker_response.i: src/tracker_response.cpp.i
+.PHONY : src/tracker_response.i
+
+# target to preprocess a source file
+src/tracker_response.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_response.cpp.i
+.PHONY : src/tracker_response.cpp.i
+
+src/tracker_response.s: src/tracker_response.cpp.s
+.PHONY : src/tracker_response.s
+
+# target to generate assembly for a file
+src/tracker_response.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_response.cpp.s
+.PHONY : src/tracker_response.cpp.s
+
 src/url.o: src/url.cpp.o
 .PHONY : src/url.o
 
@@ -483,6 +507,9 @@ help:
 	@echo "... src/tracker_client.o"
 	@echo "... src/tracker_client.i"
 	@echo "... src/tracker_client.s"
+	@echo "... src/tracker_response.o"
+	@echo "... src/tracker_response.i"
+	@echo "... src/tracker_response.s"
 	@echo "... src/url.o"
 	@echo "... src/url.i"
 	@echo "... src/url.s"

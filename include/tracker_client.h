@@ -1,19 +1,25 @@
 #pragma once
 
-#include <vector>
-#include <cstdint>
+#include <string>
 
-#include "peer.h"
+#include "torrent.h"
+#include "peer_id.h"
+#include "tracker_response.h"
 
-class TrackerResponse{
+class TrackerClient{
     public:
-        void setInterval(std::int64_t interval);
-        void addPeer(const Peer& peer);
-
-        std::int64_t interval() const;
-        const std::vector<Peer>& peers() const;
+        TrackerResponse announce(
+            const Torrent& torrent,
+            const PeerId& peerId,
+            std::uint16_t port = 6881;
+        );
 
     private:
-        std::int64_t interval_ = 0;
-        std::vector<Peer> peers_;
+        std::string buildRequest(
+            const Torrent& torrent,
+            const PeerId& peerId,
+            std::uint16_t port
+        );
+
+        TrackerResponse parseResponse(const std::string & response);
 };

@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o"
   "CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/url.cpp.o"
   "CMakeFiles/bittorrent.dir/src/url.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/url_encode.cpp.o"
