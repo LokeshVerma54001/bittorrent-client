@@ -7,6 +7,7 @@
 #include "torrent.h"
 #include "sha1.h"
 #include "socket.h"
+#include "http.h"
 
 std::string readFile(const std::string& path){
     std::ifstream file(path, std::ios::binary); //cuz file contines binary data
@@ -55,12 +56,10 @@ int main()
     Socket socket;
     socket.connect("example.com", 80);
     std::cout << "Connected!\n";
-    socket.send(
-        "GET / HTTP/1.1\r\n"
-        "Host: example.com\r\n"
-        "Connection: close\r\n"
-        "\r\n"
+    HttpClient http;
+    std::string response = http.get(
+                                "example.com",
+                                "/"
     );
-    std::string response = socket.receive();
     std::cout << response;
 }

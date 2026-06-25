@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/code/bittorrent-client/src/bencode.cpp" "CMakeFiles/bittorrent.dir/src/bencode.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/bencode.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/bvalue.cpp" "CMakeFiles/bittorrent.dir/src/bvalue.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/bvalue.cpp.o.d"
+  "/mnt/c/code/bittorrent-client/src/http.cpp" "CMakeFiles/bittorrent.dir/src/http.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/http.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/main.cpp" "CMakeFiles/bittorrent.dir/src/main.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/main.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/printer.cpp" "CMakeFiles/bittorrent.dir/src/printer.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/printer.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/sha1.cpp" "CMakeFiles/bittorrent.dir/src/sha1.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/sha1.cpp.o.d"

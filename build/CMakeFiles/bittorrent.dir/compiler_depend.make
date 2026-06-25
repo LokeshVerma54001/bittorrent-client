@@ -546,6 +546,7 @@ CMakeFiles/bittorrent.dir/src/bvalue.cpp.o: /mnt/c/code/bittorrent-client/src/bv
 CMakeFiles/bittorrent.dir/src/main.cpp.o: /mnt/c/code/bittorrent-client/src/main.cpp \
   /mnt/c/code/bittorrent-client/include/bencode.h \
   /mnt/c/code/bittorrent-client/include/bvalue.h \
+  /mnt/c/code/bittorrent-client/include/http.h \
   /mnt/c/code/bittorrent-client/include/printer.h \
   /mnt/c/code/bittorrent-client/include/sha1.h \
   /mnt/c/code/bittorrent-client/include/socket.h \
@@ -2455,6 +2456,8 @@ CMakeFiles/bittorrent.dir/src/sha1.cpp.o:
 /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/mnt/c/code/bittorrent-client/include/http.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 

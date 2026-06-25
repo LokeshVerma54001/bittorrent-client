@@ -227,4 +227,5 @@ CMakeFiles/bittorrent.dir/src/main.cpp.o: \
  /mnt/c/code/bittorrent-client/include/printer.h \
  /mnt/c/code/bittorrent-client/include/torrent.h \
  /mnt/c/code/bittorrent-client/include/sha1.h \
- /mnt/c/code/bittorrent-client/include/socket.h
+ /mnt/c/code/bittorrent-client/include/socket.h \
+ /mnt/c/code/bittorrent-client/include/http.h

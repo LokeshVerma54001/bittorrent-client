@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/bencode.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/bvalue.cpp.o"
   "CMakeFiles/bittorrent.dir/src/bvalue.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/http.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/http.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/main.cpp.o"
   "CMakeFiles/bittorrent.dir/src/main.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/printer.cpp.o"

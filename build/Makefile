@@ -177,6 +177,30 @@ src/bvalue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/bvalue.cpp.s
 .PHONY : src/bvalue.cpp.s
 
+src/http.o: src/http.cpp.o
+.PHONY : src/http.o
+
+# target to build an object file
+src/http.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/http.cpp.o
+.PHONY : src/http.cpp.o
+
+src/http.i: src/http.cpp.i
+.PHONY : src/http.i
+
+# target to preprocess a source file
+src/http.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/http.cpp.i
+.PHONY : src/http.cpp.i
+
+src/http.s: src/http.cpp.s
+.PHONY : src/http.s
+
+# target to generate assembly for a file
+src/http.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/http.cpp.s
+.PHONY : src/http.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/bvalue.o"
 	@echo "... src/bvalue.i"
 	@echo "... src/bvalue.s"
+	@echo "... src/http.o"
+	@echo "... src/http.i"
+	@echo "... src/http.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
