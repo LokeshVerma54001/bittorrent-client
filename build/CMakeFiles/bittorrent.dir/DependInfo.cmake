@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/code/bittorrent-client/src/sha1.cpp" "CMakeFiles/bittorrent.dir/src/sha1.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/sha1.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/socket.cpp" "CMakeFiles/bittorrent.dir/src/socket.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/socket.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/torrent.cpp" "CMakeFiles/bittorrent.dir/src/torrent.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
+  "/mnt/c/code/bittorrent-client/src/url.cpp" "CMakeFiles/bittorrent.dir/src/url.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/url.cpp.o.d"
   "" "bittorrent" "gcc" "CMakeFiles/bittorrent.dir/link.d"
   )
 

@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/socket.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/torrent.cpp.o"
   "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/url.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/url.cpp.o.d"
   "bittorrent"
   "bittorrent.pdb"
 )

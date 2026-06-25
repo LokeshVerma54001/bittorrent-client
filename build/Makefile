@@ -321,6 +321,30 @@ src/torrent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/torrent.cpp.s
 .PHONY : src/torrent.cpp.s
 
+src/url.o: src/url.cpp.o
+.PHONY : src/url.o
+
+# target to build an object file
+src/url.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url.cpp.o
+.PHONY : src/url.cpp.o
+
+src/url.i: src/url.cpp.i
+.PHONY : src/url.i
+
+# target to preprocess a source file
+src/url.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url.cpp.i
+.PHONY : src/url.cpp.i
+
+src/url.s: src/url.cpp.s
+.PHONY : src/url.s
+
+# target to generate assembly for a file
+src/url.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url.cpp.s
+.PHONY : src/url.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,6 +378,9 @@ help:
 	@echo "... src/torrent.o"
 	@echo "... src/torrent.i"
 	@echo "... src/torrent.s"
+	@echo "... src/url.o"
+	@echo "... src/url.i"
+	@echo "... src/url.s"
 .PHONY : help
 
 

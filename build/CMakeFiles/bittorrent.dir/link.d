@@ -10,6 +10,7 @@ bittorrent: \
   CMakeFiles/bittorrent.dir/src/sha1.cpp.o \
   CMakeFiles/bittorrent.dir/src/socket.cpp.o \
   CMakeFiles/bittorrent.dir/src/http.cpp.o \
+  CMakeFiles/bittorrent.dir/src/url.cpp.o \
   /usr/lib/x86_64-linux-gnu/libcrypto.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -63,6 +64,8 @@ CMakeFiles/bittorrent.dir/src/sha1.cpp.o:
 CMakeFiles/bittorrent.dir/src/socket.cpp.o:
 
 CMakeFiles/bittorrent.dir/src/http.cpp.o:
+
+CMakeFiles/bittorrent.dir/src/url.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libcrypto.so:
 
