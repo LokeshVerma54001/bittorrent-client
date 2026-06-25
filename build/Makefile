@@ -225,6 +225,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/peer_id.o: src/peer_id.cpp.o
+.PHONY : src/peer_id.o
+
+# target to build an object file
+src/peer_id.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/peer_id.cpp.o
+.PHONY : src/peer_id.cpp.o
+
+src/peer_id.i: src/peer_id.cpp.i
+.PHONY : src/peer_id.i
+
+# target to preprocess a source file
+src/peer_id.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/peer_id.cpp.i
+.PHONY : src/peer_id.cpp.i
+
+src/peer_id.s: src/peer_id.cpp.s
+.PHONY : src/peer_id.s
+
+# target to generate assembly for a file
+src/peer_id.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/peer_id.cpp.s
+.PHONY : src/peer_id.cpp.s
+
 src/printer.o: src/printer.cpp.o
 .PHONY : src/printer.o
 
@@ -345,6 +369,30 @@ src/url.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url.cpp.s
 .PHONY : src/url.cpp.s
 
+src/url_encode.o: src/url_encode.cpp.o
+.PHONY : src/url_encode.o
+
+# target to build an object file
+src/url_encode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url_encode.cpp.o
+.PHONY : src/url_encode.cpp.o
+
+src/url_encode.i: src/url_encode.cpp.i
+.PHONY : src/url_encode.i
+
+# target to preprocess a source file
+src/url_encode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url_encode.cpp.i
+.PHONY : src/url_encode.cpp.i
+
+src/url_encode.s: src/url_encode.cpp.s
+.PHONY : src/url_encode.s
+
+# target to generate assembly for a file
+src/url_encode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/url_encode.cpp.s
+.PHONY : src/url_encode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -366,6 +414,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/peer_id.o"
+	@echo "... src/peer_id.i"
+	@echo "... src/peer_id.s"
 	@echo "... src/printer.o"
 	@echo "... src/printer.i"
 	@echo "... src/printer.s"
@@ -381,6 +432,9 @@ help:
 	@echo "... src/url.o"
 	@echo "... src/url.i"
 	@echo "... src/url.s"
+	@echo "... src/url_encode.o"
+	@echo "... src/url_encode.i"
+	@echo "... src/url_encode.s"
 .PHONY : help
 
 

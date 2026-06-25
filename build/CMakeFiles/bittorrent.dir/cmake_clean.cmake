@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/http.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/main.cpp.o"
   "CMakeFiles/bittorrent.dir/src/main.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/peer_id.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/peer_id.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/printer.cpp.o"
   "CMakeFiles/bittorrent.dir/src/printer.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/sha1.cpp.o"
@@ -18,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/url.cpp.o"
   "CMakeFiles/bittorrent.dir/src/url.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/url_encode.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/url_encode.cpp.o.d"
   "bittorrent"
   "bittorrent.pdb"
 )
