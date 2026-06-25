@@ -6,6 +6,7 @@
 #include "printer.h"
 #include "torrent.h"
 #include "sha1.h"
+#include "socket.h"
 
 std::string readFile(const std::string& path){
     std::ifstream file(path, std::ios::binary); //cuz file contines binary data
@@ -50,4 +51,16 @@ int main()
     std::cout << torrent.rawInfo().substr(0, 100) << std::endl;
 
     std::cout << sha1Hex(torrent.rawInfo()) << '\n';
+
+    Socket socket;
+    socket.connect("example.com", 80);
+    std::cout << "Connected!\n";
+    socket.send(
+        "GET / HTTP/1.1\r\n"
+        "Host: example.com\r\n"
+        "Connection: close\r\n"
+        "\r\n"
+    );
+    std::string response = socket.receive();
+    std::cout << response;
 }

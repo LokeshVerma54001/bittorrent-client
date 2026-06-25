@@ -249,6 +249,30 @@ src/sha1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/sha1.cpp.s
 .PHONY : src/sha1.cpp.s
 
+src/socket.o: src/socket.cpp.o
+.PHONY : src/socket.o
+
+# target to build an object file
+src/socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/socket.cpp.o
+.PHONY : src/socket.cpp.o
+
+src/socket.i: src/socket.cpp.i
+.PHONY : src/socket.i
+
+# target to preprocess a source file
+src/socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/socket.cpp.i
+.PHONY : src/socket.cpp.i
+
+src/socket.s: src/socket.cpp.s
+.PHONY : src/socket.s
+
+# target to generate assembly for a file
+src/socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/socket.cpp.s
+.PHONY : src/socket.cpp.s
+
 src/torrent.o: src/torrent.cpp.o
 .PHONY : src/torrent.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... src/sha1.o"
 	@echo "... src/sha1.i"
 	@echo "... src/sha1.s"
+	@echo "... src/socket.o"
+	@echo "... src/socket.i"
+	@echo "... src/socket.s"
 	@echo "... src/torrent.o"
 	@echo "... src/torrent.i"
 	@echo "... src/torrent.s"

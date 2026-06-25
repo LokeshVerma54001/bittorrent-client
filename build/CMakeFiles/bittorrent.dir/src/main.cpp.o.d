@@ -226,4 +226,5 @@ CMakeFiles/bittorrent.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/erase_if.h \
  /mnt/c/code/bittorrent-client/include/printer.h \
  /mnt/c/code/bittorrent-client/include/torrent.h \
- /mnt/c/code/bittorrent-client/include/sha1.h
+ /mnt/c/code/bittorrent-client/include/sha1.h \
+ /mnt/c/code/bittorrent-client/include/socket.h
