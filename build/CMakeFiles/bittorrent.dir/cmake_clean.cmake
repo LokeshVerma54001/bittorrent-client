@@ -8,6 +8,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/main.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/printer.cpp.o"
   "CMakeFiles/bittorrent.dir/src/printer.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/sha1.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/sha1.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/torrent.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
   "bittorrent"
   "bittorrent.pdb"
 )

@@ -2485,8 +2485,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK"
-      binary: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK"
+      source: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V"
+      binary: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2495,13 +2495,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK'
+        Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_be7d5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_be7d5.dir/build.make CMakeFiles/cmTC_be7d5.dir/build
-        gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK'
-        Building C object CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6bdb1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6bdb1.dir/build.make CMakeFiles/cmTC_6bdb1.dir/build
+        gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V'
+        Building C object CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2511,8 +2511,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_be7d5.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_be7d5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccCDbs2V.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bdb1.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6bdb1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cchPOgKj.s
         GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2529,14 +2529,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: edd70396dcc669433a92073f97309866
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_be7d5.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o /tmp/ccCDbs2V.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bdb1.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o /tmp/cchPOgKj.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_be7d5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be7d5.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_6bdb1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bdb1.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -2549,14 +2549,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be7d5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_be7d5.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBjDjdA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_be7d5 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6bdb1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6bdb1.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Dyjkg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6bdb1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBjDjdA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_be7d5 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Dyjkg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6bdb1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be7d5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_be7d5.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -o cmTC_be7d5
-        gmake[1]: Leaving directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6bdb1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6bdb1.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -o cmTC_6bdb1
+        gmake[1]: Leaving directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V'
         
       exitCode: 0
   -
@@ -2591,13 +2591,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK']
+        ignore line: [Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_be7d5/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_be7d5.dir/build.make CMakeFiles/cmTC_be7d5.dir/build]
-        ignore line: [gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-zfZCWK']
-        ignore line: [Building C object CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6bdb1/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6bdb1.dir/build.make CMakeFiles/cmTC_6bdb1.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-ieaH9V']
+        ignore line: [Building C object CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2607,8 +2607,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_be7d5.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_be7d5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccCDbs2V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bdb1.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6bdb1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cchPOgKj.s]
         ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2625,14 +2625,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_be7d5.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o /tmp/ccCDbs2V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bdb1.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o /tmp/cchPOgKj.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_be7d5]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be7d5.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_6bdb1]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bdb1.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -2645,13 +2645,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be7d5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_be7d5.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBjDjdA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_be7d5 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6bdb1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6bdb1.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Dyjkg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6bdb1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccBjDjdA.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc2Dyjkg.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2669,7 +2669,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_be7d5] ==> ignore
+          arg [cmTC_6bdb1] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -2684,7 +2684,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -2699,7 +2699,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBjDjdA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_be7d5 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_be7d5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Dyjkg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6bdb1 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6bdb1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2739,8 +2739,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG"
-      binary: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG"
+      source: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6"
+      binary: "/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2750,13 +2750,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG'
+        Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2fcd0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2fcd0.dir/build.make CMakeFiles/cmTC_2fcd0.dir/build
-        gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG'
-        Building CXX object CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad20a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad20a.dir/build.make CMakeFiles/cmTC_ad20a.dir/build
+        gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6'
+        Building CXX object CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2766,8 +2766,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fcd0.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2fcd0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cceMQgsU.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad20a.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ad20a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cclaXCob.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2788,14 +2788,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fcd0.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceMQgsU.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad20a.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclaXCob.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2fcd0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fcd0.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ad20a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad20a.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -2808,14 +2808,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fcd0' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fcd0.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccveDqV2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fcd0 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad20a' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad20a.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccABIPlV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad20a /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccveDqV2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fcd0 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccABIPlV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad20a /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fcd0' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fcd0.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2fcd0
-        gmake[1]: Leaving directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad20a' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad20a.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ad20a
+        gmake[1]: Leaving directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6'
         
       exitCode: 0
   -
@@ -2856,13 +2856,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG']
+        ignore line: [Change Dir: '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2fcd0/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2fcd0.dir/build.make CMakeFiles/cmTC_2fcd0.dir/build]
-        ignore line: [gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-HtBfNG']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad20a/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ad20a.dir/build.make CMakeFiles/cmTC_ad20a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/code/bittorrent-client/build/CMakeFiles/CMakeScratch/TryCompile-FnVth6']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2872,8 +2872,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fcd0.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2fcd0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cceMQgsU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad20a.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ad20a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cclaXCob.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2894,14 +2894,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fcd0.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceMQgsU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad20a.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclaXCob.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2fcd0]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fcd0.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ad20a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad20a.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -2914,13 +2914,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fcd0' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fcd0.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccveDqV2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fcd0 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad20a' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad20a.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccABIPlV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad20a /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccveDqV2.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccABIPlV.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2938,7 +2938,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2fcd0] ==> ignore
+          arg [cmTC_ad20a] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -2953,7 +2953,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2964,7 +2964,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccveDqV2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fcd0 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2fcd0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccABIPlV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ad20a /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ad20a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2995,4 +2995,1595 @@ events:
     message: |
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.46
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/FindOpenSSL.cmake:295 (find_package)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/snap/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+      - "/usr/bin/pkg-config"
+      - "/usr/bin/pkgconf"
+      - "/sbin/pkg-config"
+      - "/sbin/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/usr/games/pkg-config"
+      - "/usr/games/pkgconf"
+      - "/usr/local/games/pkg-config"
+      - "/usr/local/games/pkgconf"
+      - "/usr/lib/wsl/lib/pkg-config"
+      - "/usr/lib/wsl/lib/pkgconf"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/pkg-config"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/pkgconf"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/pkg-config"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/pkgconf"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/pkg-config"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/pkgconf"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/pkg-config"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/pkgconf"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/pkg-config"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/pkgconf"
+      - "/mnt/c/windows/system32/pkg-config"
+      - "/mnt/c/windows/system32/pkgconf"
+      - "/mnt/c/windows/pkg-config"
+      - "/mnt/c/windows/pkgconf"
+      - "/mnt/c/windows/System32/Wbem/pkg-config"
+      - "/mnt/c/windows/System32/Wbem/pkgconf"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/pkg-config"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/pkgconf"
+      - "/mnt/c/windows/System32/OpenSSH/pkg-config"
+      - "/mnt/c/windows/System32/OpenSSH/pkgconf"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkg-config"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pkgconf"
+      - "/mnt/c/Program Files/dotnet/pkg-config"
+      - "/mnt/c/Program Files/dotnet/pkgconf"
+      - "/mnt/c/WINDOWS/system32/pkg-config"
+      - "/mnt/c/WINDOWS/system32/pkgconf"
+      - "/mnt/c/WINDOWS/pkg-config"
+      - "/mnt/c/WINDOWS/pkgconf"
+      - "/mnt/c/WINDOWS/System32/Wbem/pkg-config"
+      - "/mnt/c/WINDOWS/System32/Wbem/pkgconf"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/pkg-config"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/pkgconf"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/pkg-config"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/pkgconf"
+      - "/mnt/c/Program Files/Git/cmd/pkg-config"
+      - "/mnt/c/Program Files/Git/cmd/pkgconf"
+      - "/mnt/c/Program Files/nodejs/pkg-config"
+      - "/mnt/c/Program Files/nodejs/pkgconf"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkg-config"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/pkgconf"
+      - "/mnt/c/Program Files/CMake/bin/pkg-config"
+      - "/mnt/c/Program Files/CMake/bin/pkgconf"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/pkg-config"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/pkgconf"
+      - "/mnt/c/Users/HP/.local/bin/pkg-config"
+      - "/mnt/c/Users/HP/.local/bin/pkgconf"
+      - "/mnt/c/Users/HP/.cargo/bin/pkg-config"
+      - "/mnt/c/Users/HP/.cargo/bin/pkgconf"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/pkg-config"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/pkgconf"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/pkg-config"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/pkgconf"
+      - "/mnt/c/Microsoft VS Code/bin/pkg-config"
+      - "/mnt/c/Microsoft VS Code/bin/pkgconf"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/pkgconf"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/pkg-config"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/pkgconf"
+      - "/mnt/c/Users/HP/.dotnet/tools/pkg-config"
+      - "/mnt/c/Users/HP/.dotnet/tools/pkgconf"
+      - "/mnt/c/msys64/ucrt64/bin/pkg-config"
+      - "/mnt/c/msys64/ucrt64/bin/pkgconf"
+      - "/snap/bin/pkg-config"
+      - "/snap/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/pkg-config"
+      - "/usr/local/pkgconf"
+      - "/usr/bin/pkg-config"
+      - "/usr/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+      - "/usr/pkg-config"
+      - "/usr/pkgconf"
+      - "/bin/pkg-config"
+      - "/bin/pkgconf"
+      - "/sbin/pkg-config"
+      - "/sbin/pkgconf"
+      - "/usr/X11R6/bin/pkg-config"
+      - "/usr/X11R6/bin/pkgconf"
+      - "/usr/X11R6/sbin/pkg-config"
+      - "/usr/X11R6/sbin/pkgconf"
+      - "/usr/X11R6/pkg-config"
+      - "/usr/X11R6/pkgconf"
+      - "/usr/pkg/bin/pkg-config"
+      - "/usr/pkg/bin/pkgconf"
+      - "/usr/pkg/sbin/pkg-config"
+      - "/usr/pkg/sbin/pkgconf"
+      - "/usr/pkg/pkg-config"
+      - "/usr/pkg/pkgconf"
+      - "/opt/bin/pkg-config"
+      - "/opt/bin/pkgconf"
+      - "/opt/sbin/pkg-config"
+      - "/opt/sbin/pkgconf"
+      - "/opt/pkg-config"
+      - "/opt/pkgconf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/ProgramData/Oracle/Java/javapath"
+        - "/mnt/c/windows/system32"
+        - "/mnt/c/windows"
+        - "/mnt/c/windows/System32/Wbem"
+        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/windows/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/Users/HP/.cargo/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Microsoft VS Code/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/HP/AppData/Roaming/npm"
+        - "/mnt/c/Users/HP/.dotnet/tools"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/msys64/ucrt64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenSSL.cmake:370 (find_path)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "path"
+    variable: "OPENSSL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openssl/ssl.h"
+    candidate_directories:
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/sbin/include/"
+      - "/sbin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/games/include/"
+      - "/usr/games/"
+      - "/usr/local/games/include/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/include/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/include/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/include/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/include/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/include/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/include/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/windows/system32/include/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/include/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/System32/Wbem/include/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/include/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/OpenSSH/include/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/dotnet/include/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/WINDOWS/system32/include/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/include/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/include/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/include/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/include/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/Git/cmd/include/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/include/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/CMake/bin/include/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/include/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/.local/bin/include/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/include/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/include/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/include/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Microsoft VS Code/bin/include/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/include/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/include/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/.dotnet/tools/include/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/msys64/ucrt64/bin/include/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/snap/bin/include/"
+      - "/snap/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/include/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/include/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/include/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/include/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/include/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/usr/local/sbin/include/openssl/ssl.h"
+      - "/usr/local/sbin/openssl/ssl.h"
+      - "/usr/local/bin/include/openssl/ssl.h"
+      - "/usr/local/bin/openssl/ssl.h"
+      - "/usr/sbin/include/openssl/ssl.h"
+      - "/usr/sbin/openssl/ssl.h"
+      - "/usr/bin/include/openssl/ssl.h"
+      - "/usr/bin/openssl/ssl.h"
+      - "/sbin/include/openssl/ssl.h"
+      - "/sbin/openssl/ssl.h"
+      - "/bin/include/openssl/ssl.h"
+      - "/bin/openssl/ssl.h"
+      - "/usr/games/include/openssl/ssl.h"
+      - "/usr/games/openssl/ssl.h"
+      - "/usr/local/games/include/openssl/ssl.h"
+      - "/usr/local/games/openssl/ssl.h"
+      - "/usr/lib/wsl/lib/include/openssl/ssl.h"
+      - "/usr/lib/wsl/lib/openssl/ssl.h"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/include/openssl/ssl.h"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/openssl/ssl.h"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/include/openssl/ssl.h"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/openssl/ssl.h"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/include/openssl/ssl.h"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/openssl/ssl.h"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/include/openssl/ssl.h"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/openssl/ssl.h"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/include/openssl/ssl.h"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/openssl/ssl.h"
+      - "/mnt/c/windows/system32/include/openssl/ssl.h"
+      - "/mnt/c/windows/system32/openssl/ssl.h"
+      - "/mnt/c/windows/include/openssl/ssl.h"
+      - "/mnt/c/windows/openssl/ssl.h"
+      - "/mnt/c/windows/System32/Wbem/include/openssl/ssl.h"
+      - "/mnt/c/windows/System32/Wbem/openssl/ssl.h"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/include/openssl/ssl.h"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/openssl/ssl.h"
+      - "/mnt/c/windows/System32/OpenSSH/include/openssl/ssl.h"
+      - "/mnt/c/windows/System32/OpenSSH/openssl/ssl.h"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/openssl/ssl.h"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/openssl/ssl.h"
+      - "/mnt/c/Program Files/dotnet/include/openssl/ssl.h"
+      - "/mnt/c/Program Files/dotnet/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/system32/include/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/system32/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/include/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/System32/Wbem/include/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/System32/Wbem/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/include/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/include/openssl/ssl.h"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/openssl/ssl.h"
+      - "/mnt/c/Program Files/Git/cmd/include/openssl/ssl.h"
+      - "/mnt/c/Program Files/Git/cmd/openssl/ssl.h"
+      - "/mnt/c/Program Files/nodejs/include/openssl/ssl.h"
+      - "/mnt/c/Program Files/nodejs/openssl/ssl.h"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/openssl/ssl.h"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/openssl/ssl.h"
+      - "/mnt/c/Program Files/CMake/bin/include/openssl/ssl.h"
+      - "/mnt/c/Program Files/CMake/bin/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/openssl/ssl.h"
+      - "/mnt/c/Users/HP/.local/bin/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/.local/bin/openssl/ssl.h"
+      - "/mnt/c/Users/HP/.cargo/bin/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/.cargo/bin/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/openssl/ssl.h"
+      - "/mnt/c/Microsoft VS Code/bin/include/openssl/ssl.h"
+      - "/mnt/c/Microsoft VS Code/bin/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/openssl/ssl.h"
+      - "/mnt/c/Users/HP/.dotnet/tools/include/openssl/ssl.h"
+      - "/mnt/c/Users/HP/.dotnet/tools/openssl/ssl.h"
+      - "/mnt/c/msys64/ucrt64/bin/include/openssl/ssl.h"
+      - "/mnt/c/msys64/ucrt64/bin/openssl/ssl.h"
+      - "/snap/bin/include/openssl/ssl.h"
+      - "/snap/bin/openssl/ssl.h"
+      - "/usr/local/include/x86_64-linux-gnu/include/openssl/ssl.h"
+      - "/usr/local/include/x86_64-linux-gnu/openssl/ssl.h"
+      - "/usr/local/include/include/openssl/ssl.h"
+      - "/usr/local/include/openssl/ssl.h"
+      - "/usr/local/include/openssl/ssl.h"
+      - "/usr/local/openssl/ssl.h"
+      - "/usr/include/x86_64-linux-gnu/include/openssl/ssl.h"
+      - "/usr/include/x86_64-linux-gnu/openssl/ssl.h"
+      - "/usr/include/include/openssl/ssl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/ProgramData/Oracle/Java/javapath"
+        - "/mnt/c/windows/system32"
+        - "/mnt/c/windows"
+        - "/mnt/c/windows/System32/Wbem"
+        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/windows/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/Users/HP/.cargo/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Microsoft VS Code/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/HP/AppData/Roaming/npm"
+        - "/mnt/c/Users/HP/.dotnet/tools"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/msys64/ucrt64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenSSL.cmake:628 (find_library)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_SSL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+      - "ssleay32"
+      - "ssleay32MD"
+    candidate_directories:
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/lib/"
+      - "/usr/lib/wsl/lib/lib64/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib64/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/windows/system32/lib/"
+      - "/mnt/c/windows/system32/lib64/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/lib/"
+      - "/mnt/c/windows/lib64/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/System32/Wbem/lib/"
+      - "/mnt/c/windows/System32/Wbem/lib64/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/OpenSSH/lib/"
+      - "/mnt/c/windows/System32/OpenSSH/lib64/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib64/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/dotnet/lib/"
+      - "/mnt/c/Program Files/dotnet/lib64/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/WINDOWS/system32/lib/"
+      - "/mnt/c/WINDOWS/system32/lib64/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/lib/"
+      - "/mnt/c/WINDOWS/lib64/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib64/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib64/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/Git/cmd/lib/"
+      - "/mnt/c/Program Files/Git/cmd/lib64/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/lib/"
+      - "/mnt/c/Program Files/nodejs/lib64/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib64/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/CMake/bin/lib/"
+      - "/mnt/c/Program Files/CMake/bin/lib64/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib64/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib64/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Microsoft VS Code/bin/lib/"
+      - "/mnt/c/Microsoft VS Code/bin/lib64/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib64/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib64/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/msys64/ucrt64/bin/lib/"
+      - "/mnt/c/msys64/ucrt64/bin/lib64/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/lib/"
+      - "/usr/lib/wsl/lib/lib/"
+      - "/usr/lib/wsl/lib/lib/"
+      - "/usr/lib/wsl/lib/lib64/"
+      - "/usr/lib/wsl/lib/lib64/"
+      - "/usr/lib/wsl/lib/lib64/"
+      - "/usr/lib/wsl/lib/"
+      - "/usr/lib/wsl/lib/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib64/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib64/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib64/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/windows/system32/lib/"
+      - "/mnt/c/windows/system32/lib/"
+      - "/mnt/c/windows/system32/lib/"
+      - "/mnt/c/windows/system32/lib64/"
+      - "/mnt/c/windows/system32/lib64/"
+      - "/mnt/c/windows/system32/lib64/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/lib/"
+      - "/mnt/c/windows/lib/"
+      - "/mnt/c/windows/lib/"
+      - "/mnt/c/windows/lib64/"
+      - "/mnt/c/windows/lib64/"
+      - "/mnt/c/windows/lib64/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/System32/Wbem/lib/"
+      - "/mnt/c/windows/System32/Wbem/lib/"
+      - "/mnt/c/windows/System32/Wbem/lib/"
+      - "/mnt/c/windows/System32/Wbem/lib64/"
+      - "/mnt/c/windows/System32/Wbem/lib64/"
+      - "/mnt/c/windows/System32/Wbem/lib64/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/OpenSSH/lib/"
+      - "/mnt/c/windows/System32/OpenSSH/lib/"
+      - "/mnt/c/windows/System32/OpenSSH/lib/"
+      - "/mnt/c/windows/System32/OpenSSH/lib64/"
+      - "/mnt/c/windows/System32/OpenSSH/lib64/"
+      - "/mnt/c/windows/System32/OpenSSH/lib64/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib64/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib64/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib64/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/dotnet/lib/"
+      - "/mnt/c/Program Files/dotnet/lib/"
+      - "/mnt/c/Program Files/dotnet/lib/"
+      - "/mnt/c/Program Files/dotnet/lib64/"
+      - "/mnt/c/Program Files/dotnet/lib64/"
+      - "/mnt/c/Program Files/dotnet/lib64/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/WINDOWS/system32/lib/"
+      - "/mnt/c/WINDOWS/system32/lib/"
+      - "/mnt/c/WINDOWS/system32/lib/"
+      - "/mnt/c/WINDOWS/system32/lib64/"
+      - "/mnt/c/WINDOWS/system32/lib64/"
+      - "/mnt/c/WINDOWS/system32/lib64/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/lib/"
+      - "/mnt/c/WINDOWS/lib/"
+      - "/mnt/c/WINDOWS/lib/"
+      - "/mnt/c/WINDOWS/lib64/"
+      - "/mnt/c/WINDOWS/lib64/"
+      - "/mnt/c/WINDOWS/lib64/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib64/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib64/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib64/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib64/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib64/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib64/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/Git/cmd/lib/"
+      - "/mnt/c/Program Files/Git/cmd/lib/"
+      - "/mnt/c/Program Files/Git/cmd/lib/"
+      - "/mnt/c/Program Files/Git/cmd/lib64/"
+      - "/mnt/c/Program Files/Git/cmd/lib64/"
+      - "/mnt/c/Program Files/Git/cmd/lib64/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/lib/"
+      - "/mnt/c/Program Files/nodejs/lib/"
+      - "/mnt/c/Program Files/nodejs/lib/"
+      - "/mnt/c/Program Files/nodejs/lib64/"
+      - "/mnt/c/Program Files/nodejs/lib64/"
+      - "/mnt/c/Program Files/nodejs/lib64/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib64/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib64/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib64/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/CMake/bin/lib/"
+      - "/mnt/c/Program Files/CMake/bin/lib/"
+      - "/mnt/c/Program Files/CMake/bin/lib/"
+      - "/mnt/c/Program Files/CMake/bin/lib64/"
+      - "/mnt/c/Program Files/CMake/bin/lib64/"
+      - "/mnt/c/Program Files/CMake/bin/lib64/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib64/"
+      - "/mnt/c/Users/HP/.local/bin/lib64/"
+      - "/mnt/c/Users/HP/.local/bin/lib64/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib64/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib64/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib64/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Microsoft VS Code/bin/lib/"
+      - "/mnt/c/Microsoft VS Code/bin/lib/"
+      - "/mnt/c/Microsoft VS Code/bin/lib/"
+      - "/mnt/c/Microsoft VS Code/bin/lib64/"
+      - "/mnt/c/Microsoft VS Code/bin/lib64/"
+      - "/mnt/c/Microsoft VS Code/bin/lib64/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib64/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib64/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib64/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib64/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib64/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib64/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/msys64/ucrt64/bin/lib/"
+      - "/mnt/c/msys64/ucrt64/bin/lib/"
+      - "/mnt/c/msys64/ucrt64/bin/lib/"
+      - "/mnt/c/msys64/ucrt64/bin/lib64/"
+      - "/mnt/c/msys64/ucrt64/bin/lib64/"
+      - "/mnt/c/msys64/ucrt64/bin/lib64/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+    found: "/usr/lib/x86_64-linux-gnu/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/ProgramData/Oracle/Java/javapath"
+        - "/mnt/c/windows/system32"
+        - "/mnt/c/windows"
+        - "/mnt/c/windows/System32/Wbem"
+        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/windows/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/Users/HP/.cargo/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Microsoft VS Code/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/HP/AppData/Roaming/npm"
+        - "/mnt/c/Users/HP/.dotnet/tools"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/msys64/ucrt64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindOpenSSL.cmake:642 (find_library)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_CRYPTO_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/lib/"
+      - "/usr/lib/wsl/lib/lib64/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib64/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/windows/system32/lib/"
+      - "/mnt/c/windows/system32/lib64/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/lib/"
+      - "/mnt/c/windows/lib64/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/System32/Wbem/lib/"
+      - "/mnt/c/windows/System32/Wbem/lib64/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/OpenSSH/lib/"
+      - "/mnt/c/windows/System32/OpenSSH/lib64/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib64/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/dotnet/lib/"
+      - "/mnt/c/Program Files/dotnet/lib64/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/WINDOWS/system32/lib/"
+      - "/mnt/c/WINDOWS/system32/lib64/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/lib/"
+      - "/mnt/c/WINDOWS/lib64/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib64/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib64/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/Git/cmd/lib/"
+      - "/mnt/c/Program Files/Git/cmd/lib64/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/lib/"
+      - "/mnt/c/Program Files/nodejs/lib64/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib64/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/CMake/bin/lib/"
+      - "/mnt/c/Program Files/CMake/bin/lib64/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib64/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib64/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Microsoft VS Code/bin/lib/"
+      - "/mnt/c/Microsoft VS Code/bin/lib64/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib64/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib64/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/msys64/ucrt64/bin/lib/"
+      - "/mnt/c/msys64/ucrt64/bin/lib64/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/lib/"
+      - "/usr/lib/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/lib/"
+      - "/lib/x86_64-linux-gnu/lib64/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/lib/"
+      - "/lib/lib64/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/lib/"
+      - "/usr/X11R6/lib/lib64/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib64/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/lib/"
+      - "/usr/pkg/lib/lib64/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib64/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/lib/"
+      - "/opt/lib/x86_64-linux-gnu/lib64/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/lib/"
+      - "/opt/lib/lib64/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/lib64/"
+      - "/opt/"
+      - "/usr/lib/X11/lib/"
+      - "/usr/lib/X11/lib64/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/local/sbin/lib/"
+      - "/usr/local/sbin/lib64/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/lib/"
+      - "/usr/local/bin/lib64/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/lib/"
+      - "/usr/sbin/lib64/"
+      - "/usr/sbin/"
+      - "/usr/bin/lib/"
+      - "/usr/bin/lib64/"
+      - "/usr/bin/"
+      - "/sbin/lib/"
+      - "/sbin/lib64/"
+      - "/sbin/"
+      - "/bin/lib/"
+      - "/bin/lib64/"
+      - "/bin/"
+      - "/usr/games/lib/"
+      - "/usr/games/lib64/"
+      - "/usr/games/"
+      - "/usr/local/games/lib/"
+      - "/usr/local/games/lib64/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/lib/"
+      - "/usr/lib/wsl/lib/lib64/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/lib64/"
+      - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/lib64/"
+      - "/mnt/c/ProgramData/Oracle/Java/javapath/"
+      - "/mnt/c/windows/system32/lib/"
+      - "/mnt/c/windows/system32/lib64/"
+      - "/mnt/c/windows/system32/"
+      - "/mnt/c/windows/lib/"
+      - "/mnt/c/windows/lib64/"
+      - "/mnt/c/windows/"
+      - "/mnt/c/windows/System32/Wbem/lib/"
+      - "/mnt/c/windows/System32/Wbem/lib64/"
+      - "/mnt/c/windows/System32/Wbem/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/windows/System32/OpenSSH/lib/"
+      - "/mnt/c/windows/System32/OpenSSH/lib64/"
+      - "/mnt/c/windows/System32/OpenSSH/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib64/"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "/mnt/c/Program Files/dotnet/lib/"
+      - "/mnt/c/Program Files/dotnet/lib64/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/WINDOWS/system32/lib/"
+      - "/mnt/c/WINDOWS/system32/lib64/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/lib/"
+      - "/mnt/c/WINDOWS/lib64/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib/"
+      - "/mnt/c/WINDOWS/System32/Wbem/lib64/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/lib64/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/lib64/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/Git/cmd/lib/"
+      - "/mnt/c/Program Files/Git/cmd/lib64/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/lib/"
+      - "/mnt/c/Program Files/nodejs/lib64/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib64/"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "/mnt/c/Program Files/CMake/bin/lib/"
+      - "/mnt/c/Program Files/CMake/bin/lib64/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib/"
+      - "/mnt/c/Users/HP/.local/bin/lib64/"
+      - "/mnt/c/Users/HP/.local/bin/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib/"
+      - "/mnt/c/Users/HP/.cargo/bin/lib64/"
+      - "/mnt/c/Users/HP/.cargo/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Microsoft VS Code/bin/lib/"
+      - "/mnt/c/Microsoft VS Code/bin/lib64/"
+      - "/mnt/c/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/lib64/"
+      - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/lib64/"
+      - "/mnt/c/Users/HP/AppData/Roaming/npm/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib/"
+      - "/mnt/c/Users/HP/.dotnet/tools/lib64/"
+      - "/mnt/c/Users/HP/.dotnet/tools/"
+      - "/mnt/c/msys64/ucrt64/bin/lib/"
+      - "/mnt/c/msys64/ucrt64/bin/lib64/"
+      - "/mnt/c/msys64/ucrt64/bin/"
+      - "/snap/bin/lib/"
+      - "/snap/bin/lib64/"
+      - "/snap/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib/"
+      - "/usr/local/lib/x86_64-linux-gnu/lib64/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/lib/"
+      - "/usr/local/lib/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/lib/"
+      - "/usr/lib/x86_64-linux-gnu/lib64/"
+    found: "/usr/lib/x86_64-linux-gnu/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/code/Oracle_SQL_DBMS/app/oracle/product/11.2.0/server/bin"
+        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path"
+        - "/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath"
+        - "/mnt/c/ProgramData/Oracle/Java/javapath"
+        - "/mnt/c/windows/system32"
+        - "/mnt/c/windows"
+        - "/mnt/c/windows/System32/Wbem"
+        - "/mnt/c/windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/windows/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/Users/HP/.cargo/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Microsoft VS Code/bin"
+        - "/mnt/c/Users/HP/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "/mnt/c/Users/HP/AppData/Roaming/npm"
+        - "/mnt/c/Users/HP/.dotnet/tools"
+        - "/mnt/c/Users/HP/AppData/Local/Muse Hub/lib"
+        - "/mnt/c/Users/HP/.local/bin"
+        - "/mnt/c/msys64/ucrt64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
 ...

@@ -30,30 +30,46 @@ std::unique_ptr<BValue> BencodeParser::parseValue(){
 }
 
 std::unique_ptr<BValue> BencodeParser::parseInteger(){
+    size_t start = position;
     get();
     string number;
     while(peek()!='e'){
         number += get();
     }
     get();
-    return make_unique<BValue>(std::stoll(number));
+    size_t end = position;
+    auto node = std::make_unique<BValue>(std::stoll(number));
+    node->start = start;
+    node->end = end;
+    return node;
 }
 
 std::unique_ptr<BValue> BencodeParser::parseString(){
-    return make_unique<BValue>(parseRawString());
+    size_t start = position;
+    auto node = make_unique<BValue>(parseRawString());
+    size_t end = position;
+    node->start = start;
+    node->end = end;
+    return node;
 }
 
 std::unique_ptr<BValue> BencodeParser::parseList(){
+    size_t start = position;
     get();
     BList list;
     while(peek() != 'e'){
         list.push_back(parseValue());
     }
     get();
-    return make_unique<BValue>(move(list));
+    size_t end = position;
+    auto node = make_unique<BValue>(move(list));
+    node->start = start;
+    node->end = end;
+    return node;
 }
 
 std::unique_ptr<BValue> BencodeParser::parseDictionary(){
+    size_t start = position;
     get();
     BDictionary dict;
     while(peek() != 'e'){
@@ -65,7 +81,11 @@ std::unique_ptr<BValue> BencodeParser::parseDictionary(){
         );
     }
     get();
-    return std::make_unique<BValue>(std::move(dict));
+    size_t end = position;
+    auto node = std::make_unique<BValue>(std::move(dict));
+    node->start = start;
+    node->end = end;
+    return node;
 }
 
 char BencodeParser::peek(){

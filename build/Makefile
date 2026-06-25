@@ -225,6 +225,54 @@ src/printer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/printer.cpp.s
 .PHONY : src/printer.cpp.s
 
+src/sha1.o: src/sha1.cpp.o
+.PHONY : src/sha1.o
+
+# target to build an object file
+src/sha1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/sha1.cpp.o
+.PHONY : src/sha1.cpp.o
+
+src/sha1.i: src/sha1.cpp.i
+.PHONY : src/sha1.i
+
+# target to preprocess a source file
+src/sha1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/sha1.cpp.i
+.PHONY : src/sha1.cpp.i
+
+src/sha1.s: src/sha1.cpp.s
+.PHONY : src/sha1.s
+
+# target to generate assembly for a file
+src/sha1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/sha1.cpp.s
+.PHONY : src/sha1.cpp.s
+
+src/torrent.o: src/torrent.cpp.o
+.PHONY : src/torrent.o
+
+# target to build an object file
+src/torrent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/torrent.cpp.o
+.PHONY : src/torrent.cpp.o
+
+src/torrent.i: src/torrent.cpp.i
+.PHONY : src/torrent.i
+
+# target to preprocess a source file
+src/torrent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/torrent.cpp.i
+.PHONY : src/torrent.cpp.i
+
+src/torrent.s: src/torrent.cpp.s
+.PHONY : src/torrent.s
+
+# target to generate assembly for a file
+src/torrent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/torrent.cpp.s
+.PHONY : src/torrent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +294,12 @@ help:
 	@echo "... src/printer.o"
 	@echo "... src/printer.i"
 	@echo "... src/printer.s"
+	@echo "... src/sha1.o"
+	@echo "... src/sha1.i"
+	@echo "... src/sha1.s"
+	@echo "... src/torrent.o"
+	@echo "... src/torrent.i"
+	@echo "... src/torrent.s"
 .PHONY : help
 
 

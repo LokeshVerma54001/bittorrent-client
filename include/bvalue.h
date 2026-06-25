@@ -29,6 +29,9 @@ public:
 
     Value value;
 
+    size_t start = 0;
+    size_t end = 0;
+
     BValue(std::int64_t v) : value(v) {}
     BValue(const std::string& v) : value(v) {}
     BValue(BList v) : value(std::move(v)) {}
@@ -45,4 +48,9 @@ public:
 
     BDictionary& asDict();
     const BDictionary& asDict() const;
+
+    bool isInt() const;
+    bool isString() const;
+    bool isList() const;
+    bool isDict() const;
 };
