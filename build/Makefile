@@ -225,6 +225,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/peer.o: src/peer.cpp.o
+.PHONY : src/peer.o
+
+# target to build an object file
+src/peer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/peer.cpp.o
+.PHONY : src/peer.cpp.o
+
+src/peer.i: src/peer.cpp.i
+.PHONY : src/peer.i
+
+# target to preprocess a source file
+src/peer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/peer.cpp.i
+.PHONY : src/peer.cpp.i
+
+src/peer.s: src/peer.cpp.s
+.PHONY : src/peer.s
+
+# target to generate assembly for a file
+src/peer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/peer.cpp.s
+.PHONY : src/peer.cpp.s
+
 src/peer_id.o: src/peer_id.cpp.o
 .PHONY : src/peer_id.o
 
@@ -345,6 +369,30 @@ src/torrent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/torrent.cpp.s
 .PHONY : src/torrent.cpp.s
 
+src/tracker_client.o: src/tracker_client.cpp.o
+.PHONY : src/tracker_client.o
+
+# target to build an object file
+src/tracker_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o
+.PHONY : src/tracker_client.cpp.o
+
+src/tracker_client.i: src/tracker_client.cpp.i
+.PHONY : src/tracker_client.i
+
+# target to preprocess a source file
+src/tracker_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_client.cpp.i
+.PHONY : src/tracker_client.cpp.i
+
+src/tracker_client.s: src/tracker_client.cpp.s
+.PHONY : src/tracker_client.s
+
+# target to generate assembly for a file
+src/tracker_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tracker_client.cpp.s
+.PHONY : src/tracker_client.cpp.s
+
 src/url.o: src/url.cpp.o
 .PHONY : src/url.o
 
@@ -414,6 +462,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/peer.o"
+	@echo "... src/peer.i"
+	@echo "... src/peer.s"
 	@echo "... src/peer_id.o"
 	@echo "... src/peer_id.i"
 	@echo "... src/peer_id.s"
@@ -429,6 +480,9 @@ help:
 	@echo "... src/torrent.o"
 	@echo "... src/torrent.i"
 	@echo "... src/torrent.s"
+	@echo "... src/tracker_client.o"
+	@echo "... src/tracker_client.i"
+	@echo "... src/tracker_client.s"
 	@echo "... src/url.o"
 	@echo "... src/url.i"
 	@echo "... src/url.s"

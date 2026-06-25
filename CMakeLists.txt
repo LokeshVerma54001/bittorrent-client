@@ -19,6 +19,8 @@ add_executable(bittorrent
     src/url.cpp
     src/peer_id.cpp
     src/url_encode.cpp
+    src/peer.cpp
+    src/tracker_client.cpp
 )
 
 target_include_directories(bittorrent

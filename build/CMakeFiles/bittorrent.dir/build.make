@@ -226,6 +226,34 @@ CMakeFiles/bittorrent.dir/src/url_encode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bittorrent.dir/src/url_encode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/code/bittorrent-client/src/url_encode.cpp -o CMakeFiles/bittorrent.dir/src/url_encode.cpp.s
 
+CMakeFiles/bittorrent.dir/src/peer.cpp.o: CMakeFiles/bittorrent.dir/flags.make
+CMakeFiles/bittorrent.dir/src/peer.cpp.o: /mnt/c/code/bittorrent-client/src/peer.cpp
+CMakeFiles/bittorrent.dir/src/peer.cpp.o: CMakeFiles/bittorrent.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/code/bittorrent-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/bittorrent.dir/src/peer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bittorrent.dir/src/peer.cpp.o -MF CMakeFiles/bittorrent.dir/src/peer.cpp.o.d -o CMakeFiles/bittorrent.dir/src/peer.cpp.o -c /mnt/c/code/bittorrent-client/src/peer.cpp
+
+CMakeFiles/bittorrent.dir/src/peer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bittorrent.dir/src/peer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/code/bittorrent-client/src/peer.cpp > CMakeFiles/bittorrent.dir/src/peer.cpp.i
+
+CMakeFiles/bittorrent.dir/src/peer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bittorrent.dir/src/peer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/code/bittorrent-client/src/peer.cpp -o CMakeFiles/bittorrent.dir/src/peer.cpp.s
+
+CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o: CMakeFiles/bittorrent.dir/flags.make
+CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o: /mnt/c/code/bittorrent-client/src/tracker_client.cpp
+CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o: CMakeFiles/bittorrent.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/code/bittorrent-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o -MF CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o.d -o CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o -c /mnt/c/code/bittorrent-client/src/tracker_client.cpp
+
+CMakeFiles/bittorrent.dir/src/tracker_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bittorrent.dir/src/tracker_client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/code/bittorrent-client/src/tracker_client.cpp > CMakeFiles/bittorrent.dir/src/tracker_client.cpp.i
+
+CMakeFiles/bittorrent.dir/src/tracker_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bittorrent.dir/src/tracker_client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/code/bittorrent-client/src/tracker_client.cpp -o CMakeFiles/bittorrent.dir/src/tracker_client.cpp.s
+
 # Object files for target bittorrent
 bittorrent_OBJECTS = \
 "CMakeFiles/bittorrent.dir/src/main.cpp.o" \
@@ -238,7 +266,9 @@ bittorrent_OBJECTS = \
 "CMakeFiles/bittorrent.dir/src/http.cpp.o" \
 "CMakeFiles/bittorrent.dir/src/url.cpp.o" \
 "CMakeFiles/bittorrent.dir/src/peer_id.cpp.o" \
-"CMakeFiles/bittorrent.dir/src/url_encode.cpp.o"
+"CMakeFiles/bittorrent.dir/src/url_encode.cpp.o" \
+"CMakeFiles/bittorrent.dir/src/peer.cpp.o" \
+"CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o"
 
 # External object files for target bittorrent
 bittorrent_EXTERNAL_OBJECTS =
@@ -254,11 +284,13 @@ bittorrent: CMakeFiles/bittorrent.dir/src/http.cpp.o
 bittorrent: CMakeFiles/bittorrent.dir/src/url.cpp.o
 bittorrent: CMakeFiles/bittorrent.dir/src/peer_id.cpp.o
 bittorrent: CMakeFiles/bittorrent.dir/src/url_encode.cpp.o
+bittorrent: CMakeFiles/bittorrent.dir/src/peer.cpp.o
+bittorrent: CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o
 bittorrent: CMakeFiles/bittorrent.dir/build.make
 bittorrent: CMakeFiles/bittorrent.dir/compiler_depend.ts
 bittorrent: /usr/lib/x86_64-linux-gnu/libcrypto.so
 bittorrent: CMakeFiles/bittorrent.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/code/bittorrent-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable bittorrent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/code/bittorrent-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable bittorrent"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bittorrent.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

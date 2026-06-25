@@ -13,6 +13,8 @@ bittorrent: \
   CMakeFiles/bittorrent.dir/src/url.cpp.o \
   CMakeFiles/bittorrent.dir/src/peer_id.cpp.o \
   CMakeFiles/bittorrent.dir/src/url_encode.cpp.o \
+  CMakeFiles/bittorrent.dir/src/peer.cpp.o \
+  CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o \
   /usr/lib/x86_64-linux-gnu/libcrypto.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -72,6 +74,10 @@ CMakeFiles/bittorrent.dir/src/url.cpp.o:
 CMakeFiles/bittorrent.dir/src/peer_id.cpp.o:
 
 CMakeFiles/bittorrent.dir/src/url_encode.cpp.o:
+
+CMakeFiles/bittorrent.dir/src/peer.cpp.o:
+
+CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libcrypto.so:
 
