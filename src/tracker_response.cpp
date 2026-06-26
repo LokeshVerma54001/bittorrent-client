@@ -1,5 +1,11 @@
 #include "tracker_response.h"
 
+TrackerResponse::TrackerResponse(std::unique_ptr<BValue> root){
+    const auto& dict = root->asDict();
+
+    interval_ = static_cast<std::uint32_t>(dict.at("interval")->asInt());
+}
+
 void TrackerResponse::setInterval(std::int64_t interval){
     interval_ = interval;
 }

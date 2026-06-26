@@ -2,11 +2,15 @@
 
 #include <vector>
 #include <cstdint>
+#include <string>
 
 #include "peer.h"
+#include "bvalue.h"
 
 class TrackerResponse{
     public:
+        explicit TrackerResponse(std::unique_ptr<BValue> root);
+
         void setInterval(std::int64_t interval);
         void addPeer(const Peer& peer);
 

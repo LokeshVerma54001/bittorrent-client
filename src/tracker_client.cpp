@@ -3,6 +3,7 @@
 #include "socket.h"
 #include<sstream>
 #include "url_encode.h"
+#include "bencode.h"
 
 TrackerResponse TrackerClient::announce(const Torrent& torrent, const PeerId& peerId, std::uint16_t port){
     Url url(torrent.announce());
@@ -19,31 +20,34 @@ std::string TrackerClient::buildRequest(const Torrent& torrent, const PeerId& pe
 
     std::ostringstream request;
 
-    request << "GET " << url.path();
-
-    request << "?info_hash=" << UrlEncoder::encode(torrent.infoHash());
-
-    request << "&peer_id=" << UrlEncoder::encode(peerId.value());
-
-    request << "&port=" << port;
-
-    request << "&uploaded=0";
-    request << "&downloaded=0";
-    request << "&left=" << torrent.totalLength();
-    request << "&compact=1";
-
-    request << " HTTP/1.1\r\n";
-
-    request << "Host: " << url.host() << "\r\n";
-
-    request << "Connection: close\r\n";
-
-    request << "\r\n";
+    request << "GET "
+            << url.path()
+            << "?info_hash=" << UrlEncoder::encode(torrent.infoHash())
+            << "&peer_id=" << UrlEncoder::encode(peerId.value())
+            << "&port=" << port
+            << "&uploaded=0"
+            << "&downloaded=0"
+            << "&left=" << torrent.totalLength()
+            << "&compact=1"
+            << " HTTP/1.1\r\n";
 
     return request.str();
 }
 
-TrackerResponse TrackerClient::parseResponse(const std::string& response){
-    TrackerResponse trackerResponse;
-    return trackerResponse;
+TrackerResponse TrackerClient::parseResponse(const std::string& response)
+{
+    std::size_t bodyStart = response.find("\r\n\r\n");
+
+    if (bodyStart == std::string::npos)
+    {
+        throw std::runtime_error("Invalid HTTP response");
+    }
+
+    std::string body = response.substr(bodyStart + 4);
+
+    BencodeParser parser;
+
+    auto root = parser.parse(body);
+
+    return TrackerResponse(std::move(root));
 }

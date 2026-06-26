@@ -230,4 +230,6 @@ CMakeFiles/bittorrent.dir/src/main.cpp.o: \
  /mnt/c/code/bittorrent-client/include/socket.h \
  /mnt/c/code/bittorrent-client/include/http.h \
  /mnt/c/code/bittorrent-client/include/peer_id.h \
- /mnt/c/code/bittorrent-client/include/url_encode.h
+ /mnt/c/code/bittorrent-client/include/url_encode.h \
+ /mnt/c/code/bittorrent-client/include/tracker_response.h \
+ /mnt/c/code/bittorrent-client/include/peer.h

@@ -230,4 +230,5 @@ CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o: \
  /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.tcc \
  /usr/include/c++/15/bits/istream.tcc \
  /usr/include/c++/15/bits/sstream.tcc \
- /mnt/c/code/bittorrent-client/include/url_encode.h
+ /mnt/c/code/bittorrent-client/include/url_encode.h \
+ /mnt/c/code/bittorrent-client/include/bencode.h
