@@ -43,8 +43,6 @@ bittorrent: \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o \
-  /usr/lib/x86_64-linux-gnu/libz.so.1 \
-  /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
   /usr/lib/x86_64-linux-gnu/libm.so.6 \
   /lib64/ld-linux-x86-64.so.2
 
@@ -135,10 +133,6 @@ CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o:
 /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o:
-
-/usr/lib/x86_64-linux-gnu/libz.so.1:
-
-/usr/lib/x86_64-linux-gnu/libzstd.so.1:
 
 /usr/lib/x86_64-linux-gnu/libm.so.6:
 

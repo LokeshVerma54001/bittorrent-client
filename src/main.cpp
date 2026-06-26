@@ -64,6 +64,5 @@ int main()
                                 "/"
     );
     std::cout << response << std::endl;
-    std::cout << PeerId::generate() << '\n';
     std::cout << UrlEncoder::encode("a+b=c") << '\n';
 }

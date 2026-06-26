@@ -4,5 +4,10 @@
 
 class PeerId{
     public:
-        static std::string generate();
+        PeerId();
+        const std::string& value() const;
+
+    private:
+        std::string id_;
+        std::string generate();
 };

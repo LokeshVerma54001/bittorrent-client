@@ -71,20 +71,13 @@ void Socket::send(const std::string& data){
     }
 }
 
-std::string Socket::receive(){
-    char buffer[4096]; // common page size and large enought for many reads
-    std::string response;
+std::string Socket::receiveAll(){
+    std::string data;
+    char buffer[4096];
     while(true){
-        ssize_t bytesReceived = recv(
-                                socketFd_,
-                                buffer,
-                                sizeof(buffer),
-                                0
-        );
-        if(bytesReceived > 0){
-            response.append(buffer, bytesReceived);
-        }else if(bytesReceived == 0) break;
-        else throw std::runtime_error("Receive failed.");
+        ssize_t bytes = recv(socketFd_, buffer, sizeof(buffer), 0);
+        if(bytes<=0) break;
+        data.append(buffer, bytes);
     }
-    return response;
+    return data;
 }

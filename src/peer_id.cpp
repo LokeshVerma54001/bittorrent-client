@@ -13,3 +13,9 @@ std::string PeerId::generate(){
     }
     return id;
 }
+
+PeerId::PeerId() : id_(generate()) {}
+
+const std::string& PeerId::value() const{
+    return id_;
+}

@@ -15,6 +15,7 @@ class Torrent{
         std::size_t pieceCount() const;
         const std::string& pieces() const;
         std::string rawInfo() const;
+        std::string infoHash() const;
     
     private:
         std::unique_ptr<BValue> root_;

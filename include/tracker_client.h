@@ -11,7 +11,7 @@ class TrackerClient{
         TrackerResponse announce(
             const Torrent& torrent,
             const PeerId& peerId,
-            std::uint16_t port = 6881;
+            std::uint16_t port = 6881
         );
 
     private:

@@ -1,4 +1,5 @@
 #include "torrent.h"
+#include "sha1.h"
 
 Torrent::Torrent(std::unique_ptr<BValue> root, std::string rawData) : root_(std::move(root)), rawData_(std::move(rawData)) {}
 
@@ -37,4 +38,8 @@ std::size_t Torrent::pieceCount() const{
 std::string Torrent::rawInfo() const{
     const BValue& info = *rootDict().at("info");
     return rawData_.substr(info.start, info.end - info.start);
+}
+
+std::string Torrent::infoHash() const{
+    return sha1(rawInfo());
 }

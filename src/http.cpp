@@ -15,7 +15,7 @@ std::string HttpClient::getRaw(const std::string& host, const std::string& path)
     request << "\r\n";
 
     socket.send(request.str());
-    return socket.receive();
+    return socket.receiveAll();
 }
 
 std::string HttpClient::getBody(const std::string& host, const std::string& path){
