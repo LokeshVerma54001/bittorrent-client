@@ -11,6 +11,7 @@
 #include "peer_id.h"
 #include "url_encode.h"
 #include "tracker_response.h"
+#include "tracker_client.h"
 
 std::string readFile(const std::string& path){
     std::ifstream file(path, std::ios::binary); //cuz file contines binary data
@@ -24,14 +25,25 @@ std::string readFile(const std::string& path){
 
 int main()
 {
-    BencodeParser parser;
+    try{
+        BencodeParser parser;
 
-    auto data = readFile("ubuntu.torrent");
+        auto data = readFile("ubuntu.torrent");
 
-    auto root = parser.parse(data);
+        auto root = parser.parse(data);
 
-    Torrent torrent(std::move(root), std::move(data));
+        Torrent torrent(std::move(root), std::move(data));
 
-    TrackerResponse response(std::move(root));
-    std::cout << response.interval() << '\n';
+        PeerId peerId;
+        TrackerClient tracker;
+        TrackerResponse response = tracker.announce(torrent, peerId, 6881);
+        std::cout << "Interval: " << response.interval() << "\n";
+        std::cout << "Peers: " << response.peers().size() << "\n";
+        for(const auto& peer: response.peers()){
+            std::cout << peer.ip() << ":" << peer.port() << '\n';
+        }
+    }catch(const std::exception& e){
+        std::cerr <<"Error: " << e.what() << "\n";
+    }
+    return 0;
 }

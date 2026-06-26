@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bittorrent.dir/src/sha1.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/socket.cpp.o"
   "CMakeFiles/bittorrent.dir/src/socket.cpp.o.d"
+  "CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o"
+  "CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/torrent.cpp.o"
   "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
   "CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o"

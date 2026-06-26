@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/code/bittorrent-client/src/printer.cpp" "CMakeFiles/bittorrent.dir/src/printer.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/printer.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/sha1.cpp" "CMakeFiles/bittorrent.dir/src/sha1.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/sha1.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/socket.cpp" "CMakeFiles/bittorrent.dir/src/socket.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/socket.cpp.o.d"
+  "/mnt/c/code/bittorrent-client/src/tls_socket.cpp" "CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/torrent.cpp" "CMakeFiles/bittorrent.dir/src/torrent.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/torrent.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/tracker_client.cpp" "CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o.d"
   "/mnt/c/code/bittorrent-client/src/tracker_response.cpp" "CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o" "gcc" "CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o.d"

@@ -16,6 +16,8 @@ bittorrent: \
   CMakeFiles/bittorrent.dir/src/peer.cpp.o \
   CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o \
   CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o \
+  CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o \
+  /usr/lib/x86_64-linux-gnu/libssl.so \
   /usr/lib/x86_64-linux-gnu/libcrypto.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -43,6 +45,8 @@ bittorrent: \
   /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o \
+  /usr/lib/x86_64-linux-gnu/libz.so.1 \
+  /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
   /usr/lib/x86_64-linux-gnu/libm.so.6 \
   /lib64/ld-linux-x86-64.so.2
 
@@ -79,6 +83,10 @@ CMakeFiles/bittorrent.dir/src/peer.cpp.o:
 CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o:
 
 CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o:
+
+CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o:
+
+/usr/lib/x86_64-linux-gnu/libssl.so:
 
 /usr/lib/x86_64-linux-gnu/libcrypto.so:
 
@@ -133,6 +141,10 @@ CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o:
 /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o:
+
+/usr/lib/x86_64-linux-gnu/libz.so.1:
+
+/usr/lib/x86_64-linux-gnu/libzstd.so.1:
 
 /usr/lib/x86_64-linux-gnu/libm.so.6:
 

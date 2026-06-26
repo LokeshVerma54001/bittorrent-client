@@ -225,10 +225,11 @@ CMakeFiles/bittorrent.dir/src/tracker_client.cpp.o: \
  /mnt/c/code/bittorrent-client/include/tracker_response.h \
  /mnt/c/code/bittorrent-client/include/peer.h \
  /mnt/c/code/bittorrent-client/include/url.h \
- /mnt/c/code/bittorrent-client/include/socket.h \
+ /mnt/c/code/bittorrent-client/include/tls_socket.h \
  /usr/include/c++/15/sstream /usr/include/c++/15/istream \
  /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.tcc \
  /usr/include/c++/15/bits/istream.tcc \
  /usr/include/c++/15/bits/sstream.tcc \
  /mnt/c/code/bittorrent-client/include/url_encode.h \
- /mnt/c/code/bittorrent-client/include/bencode.h
+ /mnt/c/code/bittorrent-client/include/bencode.h \
+ /usr/include/c++/15/iostream

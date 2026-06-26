@@ -40,6 +40,12 @@ std::string Torrent::rawInfo() const{
     return rawData_.substr(info.start, info.end - info.start);
 }
 
-std::string Torrent::infoHash() const{
-    return sha1(rawInfo());
+std::string Torrent::infoHash() const
+{
+    auto hash = sha1(rawInfo());
+
+    return std::string(
+        reinterpret_cast<const char*>(hash.data()),
+        hash.size()
+    );
 }

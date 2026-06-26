@@ -22,6 +22,7 @@ add_executable(bittorrent
     src/peer.cpp
     src/tracker_response.cpp
     src/tracker_client.cpp
+    src/tls_socket.cpp
 )
 
 target_include_directories(bittorrent
@@ -31,5 +32,6 @@ target_include_directories(bittorrent
 
 target_link_libraries(bittorrent
     PRIVATE
+        OpenSSL::SSL
         OpenSSL::Crypto
 )

@@ -345,6 +345,30 @@ src/socket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/socket.cpp.s
 .PHONY : src/socket.cpp.s
 
+src/tls_socket.o: src/tls_socket.cpp.o
+.PHONY : src/tls_socket.o
+
+# target to build an object file
+src/tls_socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tls_socket.cpp.o
+.PHONY : src/tls_socket.cpp.o
+
+src/tls_socket.i: src/tls_socket.cpp.i
+.PHONY : src/tls_socket.i
+
+# target to preprocess a source file
+src/tls_socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tls_socket.cpp.i
+.PHONY : src/tls_socket.cpp.i
+
+src/tls_socket.s: src/tls_socket.cpp.s
+.PHONY : src/tls_socket.s
+
+# target to generate assembly for a file
+src/tls_socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bittorrent.dir/build.make CMakeFiles/bittorrent.dir/src/tls_socket.cpp.s
+.PHONY : src/tls_socket.cpp.s
+
 src/torrent.o: src/torrent.cpp.o
 .PHONY : src/torrent.o
 
@@ -501,6 +525,9 @@ help:
 	@echo "... src/socket.o"
 	@echo "... src/socket.i"
 	@echo "... src/socket.s"
+	@echo "... src/tls_socket.o"
+	@echo "... src/tls_socket.i"
+	@echo "... src/tls_socket.s"
 	@echo "... src/torrent.o"
 	@echo "... src/torrent.i"
 	@echo "... src/torrent.s"

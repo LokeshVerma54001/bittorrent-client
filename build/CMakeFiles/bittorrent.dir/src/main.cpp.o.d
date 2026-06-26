@@ -226,10 +226,11 @@ CMakeFiles/bittorrent.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/erase_if.h \
  /mnt/c/code/bittorrent-client/include/printer.h \
  /mnt/c/code/bittorrent-client/include/torrent.h \
- /mnt/c/code/bittorrent-client/include/sha1.h \
+ /mnt/c/code/bittorrent-client/include/sha1.h /usr/include/c++/15/array \
  /mnt/c/code/bittorrent-client/include/socket.h \
  /mnt/c/code/bittorrent-client/include/http.h \
  /mnt/c/code/bittorrent-client/include/peer_id.h \
  /mnt/c/code/bittorrent-client/include/url_encode.h \
  /mnt/c/code/bittorrent-client/include/tracker_response.h \
- /mnt/c/code/bittorrent-client/include/peer.h
+ /mnt/c/code/bittorrent-client/include/peer.h \
+ /mnt/c/code/bittorrent-client/include/tracker_client.h
