@@ -8,7 +8,7 @@ TrackerResponse::TrackerResponse(std::unique_ptr<BValue> root){
     //decoding peers
     const std::string& peers = dict.at("peers")->asString();
     for(size_t i = 0;i+5<peers.size();i+=6){
-        int8_t a = static_cast<uint8_t>(peers[i]);
+        uint8_t a = static_cast<uint8_t>(peers[i]);
         uint8_t b = static_cast<uint8_t>(peers[i + 1]);
         uint8_t c = static_cast<uint8_t>(peers[i + 2]);
         uint8_t d = static_cast<uint8_t>(peers[i + 3]);

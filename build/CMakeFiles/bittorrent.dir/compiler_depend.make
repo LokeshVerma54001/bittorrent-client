@@ -3016,6 +3016,7 @@ CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o: /mnt/c/code/bittorrent-cli
   /usr/include/c++/15/bits/hash_bytes.h \
   /usr/include/c++/15/bits/invoke.h \
   /usr/include/c++/15/bits/ios_base.h \
+  /usr/include/c++/15/bits/istream.tcc \
   /usr/include/c++/15/bits/iterator_concepts.h \
   /usr/include/c++/15/bits/locale_classes.h \
   /usr/include/c++/15/bits/locale_classes.tcc \
@@ -3031,6 +3032,7 @@ CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o: /mnt/c/code/bittorrent-cli
   /usr/include/c++/15/bits/new_allocator.h \
   /usr/include/c++/15/bits/node_handle.h \
   /usr/include/c++/15/bits/ostream.h \
+  /usr/include/c++/15/bits/ostream.tcc \
   /usr/include/c++/15/bits/ostream_insert.h \
   /usr/include/c++/15/bits/parse_numbers.h \
   /usr/include/c++/15/bits/postypes.h \
@@ -3099,10 +3101,13 @@ CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o: /mnt/c/code/bittorrent-cli
   /usr/include/c++/15/initializer_list \
   /usr/include/c++/15/ios \
   /usr/include/c++/15/iosfwd \
+  /usr/include/c++/15/iostream \
+  /usr/include/c++/15/istream \
   /usr/include/c++/15/map \
   /usr/include/c++/15/memory \
   /usr/include/c++/15/new \
   /usr/include/c++/15/numbers \
+  /usr/include/c++/15/ostream \
   /usr/include/c++/15/pstl/execution_defs.h \
   /usr/include/c++/15/pstl/glue_memory_defs.h \
   /usr/include/c++/15/pstl/pstl_config.h \

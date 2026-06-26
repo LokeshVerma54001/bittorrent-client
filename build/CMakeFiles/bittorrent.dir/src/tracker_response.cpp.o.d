@@ -218,4 +218,6 @@ CMakeFiles/bittorrent.dir/src/tracker_response.cpp.o: \
  /usr/include/c++/15/bits/node_handle.h \
  /usr/include/c++/15/bits/stl_map.h \
  /usr/include/c++/15/bits/stl_multimap.h \
- /usr/include/c++/15/bits/erase_if.h
+ /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/iostream \
+ /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.tcc \
+ /usr/include/c++/15/istream /usr/include/c++/15/bits/istream.tcc
